@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Restaurant</title>
+</head>
+<body>
+
+<header class="header">
+    <div id="timer" class="timer">
+        <span class="timer__text">Left:</span>
+        <span id="minutes">13</span>:
+        <span id="seconds">59</span>
+    </div>
+    <div class="container">
+        <div class="header__inner">
+            <nav class="navigation">
+                <ul class="menu">
+                    <li class="menu__item">
+                        <a href="#home" class="menu__link">HOME</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#about" class="menu__link">ABOUT</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#team" class="menu__link">TEAM</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#booking" class="menu__link">BOOKING</a>
+                    </li>
+                    <div class="logo">
+                        <img src="assets/images/wheel.png" alt="wheel">
+                    </div>
+                    <li class="menu__item">
+                        <a href="#menu" class="menu__link">MENU</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#galerie" class="menu__link">GALERIE</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#events" class="menu__link">EVENTS</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#contact" class="menu__link">CONTACT</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="timetable">
+                Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM
+            </div>
+            <section class="header__center">
+                <h5 class="suptitle">
+                    restaurant
+                </h5>
+                <h1 class="header__title">
+                    hungry people
+                </h1>
+                <hr class="line"/>
+                <div class="header__buttons">
+                    <button class="header__btn">
+                        BOOK TABLE
+                    </button>
+                    <button class="header__btn">
+                        EXPLORE
+                    </button>
+                </div>
+                <div class="scroll">
+                    <div class="scroll__circle">
+                        <img src="assets/icons/arrow.svg" alt="arrow">
+                    </div>
+                </div>
+            </section>
+            <div class="socials">
+                <a href="#" class="socials__link">
+                    <div class="socials__icon">
+                        <img src="assets/icons/facebook.svg" alt="facebook">
+                    </div>
+                </a>
+                <a href="#" class="socials__link">
+                    <div class="socials__icon">
+                        <img src="assets/icons/twitter.svg" alt="twitter">
+                    </div>
+                </a>
+                <a href="#" class="socials__link">
+                    <div class="socials__icon">
+                        <img src="assets/icons/instagram.svg" alt="instagram">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+<a name="booking"></a>
+<section class="book">
+    <div class="container">
+        <div class="book__inner">
+            <div class="book__left">
+                <h2 class="title">book a table</h2>
+                <hr class="line">
+                <form class="form">
+                    <input name="name" placeholder="Name" type="text" class="input">
+                    <input name="email" placeholder="Email" type="text" class="input">
+                    <input name="phone" placeholder="Phone" type="text" class="input">
+                    <div class="selector">
+                        <div>People</div>
+                        <img src="assets/icons/arrow.svg" alt="arrow">
+                    </div>
+                    <input name="date" placeholder="Date(mm/dd)" type="text" class="input">
+                    <div class="selector">
+                        <div>Time</div>
+                        <img src="assets/icons/arrow.svg" alt="arrow">
+                    </div>
+                    <button class="form__btn">BOOK NOW</button>
+                </form>
+            </div>
+            <div class="book__right">
+                <div class="book__img">
+                    <img src="assets/images/about-img.jpg" alt="book">
+                    <div class="square"></div>
+                </div>
+            </div>
+        </div>
+        <div class="book__timetable">
+            Mon - Fri:<span>8PM - 10PM,</span>
+            Sat - Sun: <span>8PM - 3AM,</span>
+            Phone: <span>+40 729 131 637/+40 726 458 782</span>
+        </div>
+    </div>
+</section>
+<a name="galerie"></a>
+<section class="specialties">
+    <div class="container">
+        <div class="specialties__inner">
+            <h5 class="suptitle">
+                specialties
+            </h5>
+            <div class="slider">
+                <div class="slider__wrapper">
+                    <div class="slider__inner">
+                        <div class="slide">
+                            <div class="slider__img">
+                                <div class="square"></div>
+                                <img src="assets/images/pancakes.jpg" alt="pancake">
+                            </div>
+                            <div class="slide__descr">
+                                <h2 class="title title-white">
+                                    chocolate pancakes
+                                </h2>
+                                <hr class="line"/>
+                                <p class="slider__text slider__text-top">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus,
+                                    molestie
+                                    est a, tempor
+                                    magna.
+                                </p>
+                                <p class="slider__text slider__text-bottom">
+                                    Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non
+                                    ultrices ligula. Sed
+                                    dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem
+                                    quam
+                                    nec sem. Mauris
+                                    tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="slider__img">
+                                <div class="square"></div>
+                                <img src="assets/images/pancakes.jpg" alt="pancake">
+                            </div>
+                            <div class="slide__descr">
+                                <h2 class="title title-white">
+                                    chocolate pancakes
+                                </h2>
+                                <hr class="line"/>
+                                <p class="slider__text slider__text-top">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus,
+                                    molestie
+                                    est a, tempor
+                                    magna.
+                                </p>
+                                <p class="slider__text slider__text-bottom">
+                                    Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non
+                                    ultrices ligula. Sed
+                                    dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem
+                                    quam
+                                    nec sem. Mauris
+                                    tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="slider__img">
+                                <div class="square"></div>
+                                <img src="assets/images/pancakes.jpg" alt="pancake">
+                            </div>
+                            <div class="slide__descr">
+                                <h2 class="title title-white">
+                                    chocolate pancakes
+                                </h2>
+                                <hr class="line"/>
+                                <p class="slider__text slider__text-top">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus,
+                                    molestie
+                                    est a, tempor
+                                    magna.
+                                </p>
+                                <p class="slider__text slider__text-bottom">
+                                    Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non
+                                    ultrices ligula. Sed
+                                    dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem
+                                    quam
+                                    nec sem. Mauris
+                                    tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<a name="menu"></a>
+<section class="dishes_menu">
+    <div class="container">
+        <div class="dishes_menu__inner">
+            <h2 class="title">DELICIOUS MENU</h2>
+            <hr class="line"/>
+            <h4 class="subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor
+                magna.
+            </h4>
+            <ul class="dishes_menu__labels">
+                <li class="dishes_menu__label">SOUPE</li>
+                <li class="dishes_menu__label active">PIZZA</li>
+                <li class="dishes_menu__label">PASTA</li>
+                <li class="dishes_menu__label">DESERT</li>
+                <li class="dishes_menu__label">WINE</li>
+                <li class="dishes_menu__label">BEER</li>
+                <li class="dishes_menu__label">DRINKS</li>
+            </ul>
+            <div class="table">
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">SOUPE QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">45,68 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">SOUPE QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">45,68 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">SOUPE QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">45,68 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">SOUPE QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">45,68 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">SOUPE QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">45,68 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">SOUPE QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">45,68 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">SOUPE QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">45,68 USD</div>
+                </div>
+            </div>
+            <div class="table show">
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">PIZZA QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">55,68 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">PIZZA QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">55,68 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">PIZZA QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">55,68 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">PIZZA QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">55,68 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">PIZZA QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">55,68 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">PIZZA QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">55,68 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">PIZZA QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">55,68 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">PIZZA QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">55,68 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">PIZZA QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">55,68 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">PIZZA QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">55,68 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">PIZZA QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">55,68 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">PIZZA QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">55,68 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">PIZZA QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">55,68 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">PIZZA QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">55,68 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">PIZZA QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">55,68 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">PIZZA QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">55,68 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">PIZZA QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">55,68 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">PIZZA QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">55,68 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">PIZZA QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">55,68 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">PIZZA QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">55,68 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">PIZZA QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">55,68 USD</div>
+                </div>
+            </div>
+            <div class="table">
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">PASTA QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">35,68 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">PASTA QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">35,68 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">PASTA QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">35,68 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">PASTA QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">35,68 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">PASTA QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">35,68 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">PASTA QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">35,68 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">PASTA QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">35,68 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">PASTA QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">35,68 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">PASTA QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">35,68 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">PASTA QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">35,68 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">PASTA QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">35,68 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">PASTA QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">35,68 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">PASTA QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">35,68 USD</div>
+                </div>
+            </div>
+            <div class="table">
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">DESERT QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">79,68 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">DESERT QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">79,68 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">DESERT QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">79,68 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">DESERT QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">79,68 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">DESERT QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">79,68 USD</div>
+                </div>
+            </div>
+            <div class="table">
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">WINE QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">189,01 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">WINE QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">189,01 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">WINE QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">189,01 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">WINE QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">189,01 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">WINE QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">189,01 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">WINE QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">189,01 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">WINE QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">189,01 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">WINE QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">189,01 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">WINE QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">189,01 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">WINE QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">189,01 USD</div>
+                </div>
+            </div>
+            <div class="table">
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">BEER QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">24,18 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">BEER QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">24,18 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">BEER QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">24,18 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">BEER QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">24,18 USD</div>
+                </div>
+            </div>
+            <div class="table">
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">DRINK QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">18,24 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">DRINK QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">18,24 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">DRINK QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">18,24 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">DRINK QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">18,24 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">DRINK QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">18,24 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">DRINK QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">18,24 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">DRINK QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">18,24 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">DRINK QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">18,24 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">DRINK QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">18,24 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">DRINK QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">18,24 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">DRINK QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">18,24 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">DRINK QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">18,24 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">DRINK QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">18,24 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">DRINK QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">18,24 USD</div>
+                </div>
+                <div class="table__item">
+                    <div class="table__item__descr">
+                        <h3 class="table__item__title">DRINK QUATRO STAGIONI . . . . </h3>
+                        <p class="table__item__text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="table__item__price">18,24 USD</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<a name="events"></a>
+<section class="events">
+    <div class="container">
+        <div class="events__inner">
+            <h5 class="suptitle">
+                PRIVATE EVENTS
+            </h5>
+            <div class="events__blocks">
+                <div class="events__block events__block-left">
+                    <div class="events__img events__img-left">
+                        <img src="assets/images/ringles.jpg" alt="book">
+                        <div class="square"></div>
+                        <div class="events__block__label events__block__label-left">weddings</div>
+                    </div>
+                </div>
+                <div class="events__block events__block-right">
+                    <div class="events__img events__img-right">
+                        <img src="assets/images/banket.jpg" alt="book">
+                        <div class="square"></div>
+                        <div class="events__block__label events__block__label-right">corporate pzrties</div>
+                    </div>
+                </div>
+            </div>
+            <div class="events__timetable">
+                For private events please call: <span>+40 729 131 637/+40 726 458 782</span> or use the contact form.
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/libs.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

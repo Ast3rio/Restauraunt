@@ -1,0 +1,41 @@
+.book{
+  width: 100%;
+  min-height: 629px;
+  padding: 70.82px 0 53px;
+  &__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__left{
+    width: 526.5px;
+    margin: 0 66.63px 0 50px;
+  }
+  &__right{
+    width: 597.43px;
+  }
+  &__img{
+    position: relative;
+    width: 442.63px;
+    height: 442.63px;
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+    .square{
+      right: 0;
+      transform: translate(50%, -50%);
+    }
+  }
+  &__timetable{
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.11rem;
+    color: rgba(51, 51, 51, 0.5);
+    margin-top: 40px;
+    span{
+      font-weight: bold;
+    }
+  }
+}

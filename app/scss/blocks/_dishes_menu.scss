@@ -1,0 +1,60 @@
+.dishes_menu{
+  width: 100%;
+  min-height: 811px;
+  padding: 67.09px 0 74.55px;
+  &__labels{
+    display: flex;
+    justify-content: center;
+  }
+  &__label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 111.82px;
+    height: 46.59px;
+    border-right: 0.931856px solid rgba(51, 51, 51, 0.2);
+    cursor: pointer;
+    transition: all .3s;
+    &:last-child{
+      border-right: none;
+    }
+    &:hover{
+      color: $main;
+    }
+    &.active{
+      color: $main;
+    }
+  }
+}
+
+.table{
+  display: none;
+  grid-template-columns: repeat(3, auto);
+  grid-column-gap: 54px;
+  grid-row-gap: 25px;
+  margin-top: 47.52px;
+  &__item{
+    display: flex;
+    justify-content: space-between;
+    &__descr{
+      margin-right: 5px;
+    }
+    &__title{
+      margin: 0;
+      font-weight: 400;
+      font-size: 1.68rem;
+      line-height: 17px;
+    }
+    &__text{
+      font-size: 1.11rem;
+      line-height: 10px;
+    }
+    &__price{
+      font-size: 1.68rem;
+      line-height: 17px;
+    }
+  }
+  &.show{
+    display: grid;
+  }
+}

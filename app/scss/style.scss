@@ -1,0 +1,136 @@
+// global
+
+@import "vars";
+@import "libs";
+@import "fonts";
+@import "global";
+
+.timer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 112px;
+  width: 240px;
+  height: 64px;
+  background: rgba(196, 196, 196, 0.3);
+  font-weight: bold;
+  font-size: 4rem;
+  color: #FFFEFE;
+  text-transform: uppercase;
+  &__text{
+    margin-right: 10px;
+  }
+}
+
+.title{
+  font-size: 3.35rem;
+  line-height: 45px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 0;
+  &-white{
+    color: #fff;
+  }
+}
+
+.line{
+  width: 55.91px;
+  height: 4.76px;
+  border: none;
+  background: $main;
+  border-radius: 46.5928px;
+  margin: 0 auto;
+}
+
+.square{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 210.6px;
+  height: 210.6px;
+  border: 18.6371px solid $main;
+  box-shadow: 0 0 93.1856px rgba(0, 0, 0, 0.5);
+  border-radius: 4.65928px;
+  background: none;
+}
+
+.input{
+  width: 100%;
+  height: 55.91px;
+  outline: none;
+  border: $border;
+  padding: 0 18px;
+  background-color: #E5E5E5;
+  border-radius: 4.65928px;
+  &::placeholder{
+    color: rgba(51, 51, 51, 0.5);
+  }
+}
+
+.selector{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 55.91px;
+  outline: none;
+  border: $border;
+  padding: 0 18px;
+  background-color: #E5E5E5;
+  border-radius: 4.65928px;
+  color: rgba(51, 51, 51, 0.5);
+  cursor: pointer;
+}
+
+.form{
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(4, auto);
+  grid-column-gap: 9.32px;
+  grid-row-gap: 9.5px;
+  margin-top: 18.64px;
+}
+
+.form__btn{
+  height: 55.91px;
+  grid-column: 1/3;
+  background: $main;
+  border-radius: 4.65928px;
+  font-weight: bold;
+  font-size: 1.11rem;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.suptitle{
+  font-weight: bold;
+  font-size: 1.11rem;
+  line-height: 13px;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+}
+
+.subtitle{
+  display: block;
+  margin: 25px auto 45.69px;
+  width: 526.5px;
+  font-weight: bold;
+  font-size: 1.67rem;
+  text-align: center;
+}
+
+// blocks
+
+@import "blocks/header";
+@import "blocks/book";
+@import "blocks/specialties";
+@import "blocks/dishes_menu";
+@import "blocks/events";
+
+// media
+@import "media";
+
